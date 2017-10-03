@@ -69,11 +69,11 @@ header img{
   padding-left:10%;
   padding-right:10%;
 }
-.hero div{
-  text-align:center;
-  font-size:30px;
-  font-weight:300;
-  letter-spacing:4px;
+.hero h2{
+  font-size:32px;
+}
+.hero p{
+  letter-spacing:2.5px;
 }
 .why-section{
   padding:5%;
@@ -83,7 +83,19 @@ header img{
   text-align:center;
   font-weight:400;
 }
-.why-section p,
+.why-section ul{
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:5%;
+}
+.why-section ul li{
+  font-weight:300;
+  font-size:30px;
+  list-style:none;
+  display:inline-block;
+  margin:10px;
+  color:#5C7C93;
+}
 .volunteer-section p{
   margin-left:15%;
   margin-right:15%;
@@ -106,9 +118,10 @@ header img{
   width:50%;
   margin:auto;
 }
-.boxing-my-skillset ul{
+.left-involved div ul{
   font-size:30px;
   font-weight:300;
+  list-style:none;
 }
 .boxing-my-skillset ul li{
   display:inline-block;
@@ -128,7 +141,7 @@ header img{
 .right-involved h3{
   text-align:center;
   font-weight:400;
-  font-size:30px;
+  font-size:36px;
 }
 .left-involved span,
 .left-involved ul,
@@ -150,7 +163,7 @@ header img{
   background-color:transparent;
   border:solid 1px grey;
   height:75px;
-  width:170px;
+  width:200px;
   font-size:20px;
   display:block;
   margin:auto;
@@ -171,6 +184,12 @@ header img{
   text-align:center;
   font-weight:400;
 }
+.facts-about-me{
+  height:500px;
+  width:100%;
+}
+
+
 footer{
   background-color:#1D2634;
   clear:both;
