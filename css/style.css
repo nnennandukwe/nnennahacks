@@ -107,7 +107,7 @@ header img{
   float:left;
   padding:2%;
   background-color:#E2E3E5;
-  padding-bottom:9%;
+  padding-bottom:7%;
 }
 .left-involved{
   width:48%;
@@ -125,17 +125,11 @@ header img{
 }
 .boxing-my-skillset ul li{
   display:inline-block;
+  color:#5C7C93;
+  padding:7px;
 }
 .boxing-my-skillset span{
   font-weight:400;
-}
-.left-involved img,
-.right-involved img{
-  height:300px;
-  width:400px;
-  margin-left:25%;
-  margin-right:20%;
-  padding:5px;
 }
 .left-involved h3,
 .right-involved h3{
@@ -254,6 +248,14 @@ footer{
   }
   .hero{
     height:700px;
+  }
+  .left-involved,
+  .right-involved{
+    width:100%;
+  }
+  .left-involved{
+    border-right:none;
+    border-bottom:solid 1px grey;
   }
   .left-involved img,
   .right-involved img{
