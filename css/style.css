@@ -176,20 +176,30 @@ header img{
   padding:5%;
   clear:both;
 }
-.volunteer-section p{
+.volunteer-section p,
+.facts-about-me p{
   font-size:24px;
 }
-.volunteer-section h2{
+.volunteer-section h2,
+.facts-about-me h2{
   font-size:56px;
   text-align:center;
   font-weight:400;
 }
 .facts-about-me{
-  height:500px;
-  width:100%;
+  background-color:#E2E3E5;
+  clear:both;
 }
-
-
+.facts-about-me p{
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:7%;
+  font-weight:300;
+  font-size:28px;
+}
+.facts-about-me h2{
+  padding-top:3%;
+}
 footer{
   background-color:#1D2634;
   clear:both;
@@ -241,6 +251,9 @@ footer{
     width:100%;
     text-align:center;
     margin-left:-50px;
+  }
+  .hero{
+    height:700px;
   }
   .left-involved img,
   .right-involved img{
