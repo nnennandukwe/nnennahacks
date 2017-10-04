@@ -32,11 +32,11 @@ header img{
   margin-left:150px;
   margin-top:20px;
 }
-.donate-button{
+.hire-me-button{
   float:right;
   padding:2.5%;
 }
-.donate-button button{
+.hire-me-button button{
   background-color:white;
   border:none;
   border-radius:5px;
@@ -75,51 +75,43 @@ header img{
 .hero p{
   letter-spacing:2.5px;
 }
-.why-section{
+.photographic-proof-section{
   padding:5%;
 }
-.why-section h2{
+.photographic-proof-section h2{
   font-size:50px;
   text-align:center;
   font-weight:400;
 }
-.why-section ul{
-  margin-left:15%;
-  margin-right:15%;
-  margin-bottom:5%;
+.photographic-proof-section div img{
+  height:275px;
+  width:200px;
+  border-radius:65px;
 }
-.why-section ul li{
-  font-weight:300;
-  font-size:30px;
-  list-style:none;
-  display:inline-block;
-  margin:10px;
-  color:#5C7C93;
-}
-.volunteer-section p{
+.purpose-passion-section p{
   margin-left:15%;
   margin-right:15%;
   margin-bottom:5%;
   font-weight:300;
   font-size:20px;
 }
-.get-involved-section{
+.skills-and-path-section{
   float:left;
   padding:2%;
   background-color:#E2E3E5;
   padding-bottom:7%;
 }
-.left-involved{
+.tech-skills-section{
   width:48%;
   float:left;
   border-right:solid 1px grey;
 }
 .boxing-my-skillset{
-  width:50%;
+  width:48%;
   margin:auto;
 }
-.left-involved div ul{
-  font-size:30px;
+.boxing-my-skillset ul{
+  font-size:20px;
   font-weight:300;
   list-style:none;
 }
@@ -128,32 +120,25 @@ header img{
   color:#5C7C93;
   padding:7px;
 }
-.boxing-my-skillset span{
-  font-weight:400;
-}
-.left-involved h3,
-.right-involved h3{
+.tech-skills-section h3,
+.right-path-section h3{
   text-align:center;
   font-weight:400;
   font-size:36px;
 }
-.left-involved span,
-.left-involved ul,
-.left-involved button,
-.right-involved p,
-.right-involved button{
+.right-path-section p,
+.right-path-section button{
   text-align:center;
   list-style:none;
 }
-.right-involved p{
+.right-path-section p{
   margin-left:10%;
   margin-right:10%;
   font-weight:300;
   font-size:24px;
 }
-.left-involved button,
-.right-involved button,
-.volunteer-section button{
+.right-path-section button,
+.purpose-passion-section button{
   background-color:transparent;
   border:solid 1px grey;
   height:75px;
@@ -162,19 +147,19 @@ header img{
   display:block;
   margin:auto;
 }
-.right-involved{
+.right-path-section{
   width:48%;
   float:left;
 }
-.volunteer-section{
+.purpose-passion-section{
   padding:5%;
   clear:both;
 }
-.volunteer-section p,
+.purpose-passion-section p,
 .facts-about-me p{
   font-size:24px;
 }
-.volunteer-section h2,
+.purpose-passion-section h2,
 .facts-about-me h2{
   font-size:56px;
   text-align:center;
@@ -194,20 +179,25 @@ header img{
 .facts-about-me h2{
   padding-top:3%;
 }
+
+.contact-me-form{
+  background-color:white;
+  text-align:center;
+}
 footer{
   background-color:#1D2634;
   clear:both;
 }
-.left-footer{
+.top-footer{
   text-align:center;
 }
-.contact-me{
+.reach-me{
   text-align:center;
   width:100%;
   clear:both;
   padding-top:2%;
 }
-.contact-me span{
+.reach-me span{
   color:white;
   font-size:36px;
 }
@@ -249,25 +239,21 @@ footer{
   .hero{
     height:700px;
   }
-  .left-involved,
-  .right-involved{
+  .tech-skills-section,
+  .right-path-section{
     width:100%;
   }
-  .left-involved{
+  .tech-skills-section{
     border-right:none;
     border-bottom:solid 1px grey;
   }
-  .left-involved img,
-  .right-involved img{
-    display:none;
-  }
-  .donate-button{
+  .hire-me-button{
     float:left;
     width:100%;
     text-align:center;
     margin-left:-20px;
   }
-  .donate-button button{
+  .hire-me-button button{
     font-size:30px;
     width:90%;
     height:80px;
@@ -276,20 +262,16 @@ footer{
 }
 
 @media only screen and (max-width:600px){
-  .donate-button{
+  .hire-me-button{
     float:left;
     width:100%;
     text-align:center;
     margin-left:-20px;
   }
-  .donate-button button{
+  .hire-me-button button{
     font-size:30px;
     width:90%;
     height:80px;
-  }
-  .left-involved img,
-  .right-involved img{
-    display:none;
   }
   .hero{
     height:800px;
