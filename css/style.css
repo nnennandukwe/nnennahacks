@@ -1,0 +1,280 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  text-decoration:none;
+}
+
+header{
+  width:100%;
+  background-color:#1D2634;
+  height:100px;
+  margin-top:-15px;
+}
+header ul{
+  width:65%;
+  float:left;
+  margin-top:40px;
+}
+header ul li{
+  list-style:none;
+  display:inline-block;
+  padding-left:20px;
+}
+header ul li a{
+  color:white;
+  float:left;
+  letter-spacing:2px;
+  font-size:24px;
+}
+header img{
+  height:50px;
+  width:50px;
+  float:left;
+  margin-left:150px;
+  margin-top:20px;
+}
+.hire-me-button{
+  float:right;
+  padding:2.5%;
+}
+.hire-me-button button{
+  background-color:white;
+  border:none;
+  border-radius:5px;
+  height:50px;
+  width:200px;
+  color:#1D2634;
+  font-size:18px;
+}
+.hero{
+  height:500px;
+  border:solid 1px;
+  border-color:#1D2634;
+  background-color:#1D2634;
+}
+.hero h1,
+.hero h2,
+.hero p,
+.hero div a{
+  color:white;
+}
+.hero h1{
+  font-size:72px;
+  text-align:center;
+  font-weight:400;
+}
+.hero h2,
+.hero p{
+  font-weight:400;
+  text-align:center;
+  padding-left:10%;
+  padding-right:10%;
+}
+.hero h2{
+  font-size:32px;
+}
+.hero p{
+  letter-spacing:2.5px;
+}
+.photographic-proof-section{
+  padding:5%;
+}
+.photographic-proof-section h2{
+  font-size:50px;
+  text-align:center;
+  font-weight:400;
+}
+.photographic-proof-section div img{
+  height:275px;
+  width:200px;
+  border-radius:65px;
+}
+.purpose-passion-section p{
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:5%;
+  font-weight:300;
+  font-size:20px;
+}
+.skills-and-path-section{
+  float:left;
+  padding:2%;
+  background-color:#E2E3E5;
+  padding-bottom:7%;
+}
+.tech-skills-section{
+  width:48%;
+  float:left;
+  border-right:solid 1px grey;
+}
+.boxing-my-skillset{
+  width:48%;
+  margin:auto;
+}
+.boxing-my-skillset ul{
+  font-size:20px;
+  font-weight:300;
+  list-style:none;
+}
+.boxing-my-skillset ul li{
+  display:inline-block;
+  color:#5C7C93;
+  padding:7px;
+}
+.tech-skills-section h3,
+.right-path-section h3{
+  text-align:center;
+  font-weight:400;
+  font-size:36px;
+}
+.right-path-section p,
+.right-path-section button{
+  text-align:center;
+  list-style:none;
+}
+.right-path-section p{
+  margin-left:10%;
+  margin-right:10%;
+  font-weight:300;
+  font-size:24px;
+}
+.right-path-section button,
+.purpose-passion-section button{
+  background-color:transparent;
+  border:solid 1px grey;
+  height:75px;
+  width:200px;
+  font-size:20px;
+  display:block;
+  margin:auto;
+}
+.right-path-section{
+  width:48%;
+  float:left;
+}
+.purpose-passion-section{
+  padding:5%;
+  clear:both;
+}
+.purpose-passion-section p,
+.facts-about-me p{
+  font-size:24px;
+}
+.purpose-passion-section h2,
+.facts-about-me h2{
+  font-size:56px;
+  text-align:center;
+  font-weight:400;
+}
+.facts-about-me{
+  background-color:#E2E3E5;
+  clear:both;
+}
+.facts-about-me p{
+  padding-left:10%;
+  padding-right:10%;
+  padding-bottom:7%;
+  font-weight:300;
+  font-size:28px;
+}
+.facts-about-me h2{
+  padding-top:3%;
+}
+
+.contact-me-form{
+  background-color:white;
+  text-align:center;
+  font-size:30px;
+}
+footer{
+  background-color:#1D2634;
+  clear:both;
+}
+.top-footer{
+  text-align:center;
+}
+.reach-me{
+  text-align:center;
+  width:100%;
+  clear:both;
+  padding-top:2%;
+}
+.reach-me span{
+  color:white;
+  font-size:36px;
+}
+.social-media-connect ul li,
+.social-media-connect ul li a{
+  color:white;
+  padding:7px;
+}
+.social-media-connect ul li{
+  list-style:none;
+  display:inline-block;
+  font-size:48px;
+}
+.footer-message{
+  clear:both;
+  border-top:solid 1px white;
+  text-align:center;
+  padding:2%;
+  color:white;
+  height:60px;
+  word-spacing:3px;
+  margin-left:5%;
+  margin-right:5%;
+}
+.footer-message span{
+  text-align:center;
+}
+
+@media only screen and (max-width:786px){
+  header{
+    width:100%;
+    height:200px;
+  }
+  header ul{
+    width:100%;
+    text-align:center;
+    margin-left:-50px;
+  }
+  .hero{
+    height:700px;
+  }
+  .tech-skills-section,
+  .right-path-section{
+    width:100%;
+  }
+  .tech-skills-section{
+    border-right:none;
+    border-bottom:solid 1px grey;
+  }
+  .hire-me-button{
+    float:left;
+    width:100%;
+    text-align:center;
+    margin-left:-20px;
+  }
+  .hire-me-button button{
+    font-size:30px;
+    width:90%;
+    height:80px;
+  }
+
+}
+
+@media only screen and (max-width:600px){
+  .hire-me-button{
+    float:left;
+    width:100%;
+    text-align:center;
+    margin-left:-20px;
+  }
+  .hire-me-button button{
+    font-size:30px;
+    width:90%;
+    height:80px;
+  }
+  .hero{
+    height:800px;
+  }
+}
