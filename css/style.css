@@ -182,9 +182,32 @@ header img{
 
 .contact-me-form{
   background-color:white;
-  text-align:center;
   font-size:30px;
+  height:500px;
 }
+.label-half{
+  width:30%;
+  float:left;
+  margin-left:20%;
+}
+.input-half{
+  width:49%;
+  float:left;
+}
+.input-half input{
+  height:30px;
+  width:55%;
+}
+.input-half input:last-of-type{
+  margin-top:10px;
+  height:100px;
+}
+.input-half input::placeholder{
+  font-size:25px;
+  color:lightgrey;
+  font-family:monospace;
+}
+
 footer{
   background-color:#1D2634;
   clear:both;
@@ -276,5 +299,11 @@ footer{
   }
   .hero{
     height:800px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .hero{
+    height:1000px;
   }
 }
