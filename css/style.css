@@ -78,15 +78,28 @@ header img{
 .photographic-proof-section{
   padding:5%;
 }
-.photographic-proof-section h2{
+.photographic-proof-section h2,
+.photographic-proof-section h3{
   font-size:50px;
   text-align:center;
   font-weight:400;
 }
-.photographic-proof-section div img{
-  height:275px;
-  width:200px;
-  border-radius:65px;
+.left-proof,
+.middle-proof,
+.right-proof{
+  border:solid 1px;
+  height:400px;
+  width:20%;
+  float:left;
+}
+.left-proof{
+  background-color:lightblue;
+}
+.middle-proof{
+  background-color:lightgrey;
+}
+.right-proof{
+  background-color:grey;
 }
 .purpose-passion-section p{
   margin-left:15%;
@@ -206,6 +219,12 @@ header img{
   font-size:25px;
   color:lightgrey;
   font-family:monospace;
+}
+
+.submit-bottom{
+  border:solid 1px;
+  height:50px;
+
 }
 
 footer{
