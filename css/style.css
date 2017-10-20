@@ -196,7 +196,7 @@ header img{
 .contact-me-form{
   background-color:white;
   font-size:30px;
-  height:500px;
+  height:650px;
 }
 .label-half{
   width:30%;
@@ -211,22 +211,33 @@ header img{
   height:30px;
   width:55%;
 }
-.input-half input:last-of-type{
+.input-half textarea:last-of-type{
   margin-top:10px;
   height:100px;
+  width:500px;
 }
-.input-half input::placeholder{
+.input-half input::placeholder,
+.input-half textarea::placeholder{
   font-size:25px;
   color:lightgrey;
   font-family:monospace;
 }
-
-.submit-bottom{
-  border:solid 1px;
-  height:50px;
-
+textarea{
+  font-family:monospace;
+  font-size:20px;
 }
-
+.submit-icon{
+  text-align:center;
+  font-size:50px;
+  height:550px;
+}
+.submit-icon a{
+  color:grey;
+  cursor:pointer;
+}
+.submit-icon a:hover{
+  color:#1D2634;
+}
 footer{
   background-color:#1D2634;
   clear:both;
