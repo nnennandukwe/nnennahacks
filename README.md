@@ -15,5 +15,5 @@ Below is a list of sections within nnennahacks.io, in order to provide people re
 4. Follow Me
 - Follow Me offers viewers of the site an opportunity to connect with me beyond the scope of simply reviewing my website. I am quite active on social media. My website features external links to my Twitter account, LinkedIn, Medium, and my Github account. I encourage viewers to follow me on all of these specified social media platforms in order to learn more about me, my crafts, my engagements with the Boston tech community, my contributions to open source projects, and my technical pieces on how the tech industry intertwines with sociopolitically controversial topics in society.
 5. Contact Me
-- I provide a way to directly contact me as an alternative to the specified social media account links that are explicitly provided on the site. My email address is nnenna.s.ndukwe@gmail.com. I also utilize an alternative email address, which is attached to some of my social media accounts as well.
+- I provide a way to directly contact me as an alternative to the specified social media account links that are explicitly provided on the site. My email address is nnenna.s.ndukwe@gmail.com. I also utilize an alternative email address, which is attached to some of my social media accounts as well, which is nnenna@nnennahacks.io.
 
