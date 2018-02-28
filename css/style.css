@@ -45,6 +45,9 @@ header img{
   color:#1D2634;
   font-size:18px;
 }
+.hire-me-button button a{
+  color:#9A5844;
+}
 .hero{
   height:500px;
   border:solid 1px #FCB29C;
@@ -77,8 +80,7 @@ header img{
 .photographic-proof-section{
   padding:5%;
 }
-.photographic-proof-section h2,
-.photographic-proof-section h3{
+.photographic-proof-section h2{
   font-size:50px;
   text-align:center;
   font-weight:400;
@@ -110,13 +112,12 @@ header img{
 .skills-and-path-section{
   float:left;
   padding:2%;
-  background-color:#E2E3E5;
+  background-color:#FFD6A4;
   padding-bottom:7%;
 }
 .tech-skills-section{
   width:48%;
   float:left;
-  border-right:solid 1px grey;
 }
 .boxing-my-skillset{
   width:48%;
@@ -129,7 +130,7 @@ header img{
 }
 .boxing-my-skillset ul li{
   display:inline-block;
-  color:#5C7C93;
+  color:#1D2634;;
   padding:7px;
 }
 .tech-skills-section h3,
@@ -158,6 +159,9 @@ header img{
   font-size:20px;
   display:block;
   margin:auto;
+}
+.right-path-section button a{
+  color:#9A5844;
 }
 .right-path-section{
   width:48%;
@@ -238,7 +242,7 @@ textarea{
   color:#1D2634;
 }
 footer{
-  background-color:#1D2634;
+  background-color:#FCB29C;
   clear:both;
 }
 .top-footer{
