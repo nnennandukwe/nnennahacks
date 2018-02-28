@@ -5,7 +5,7 @@
 
 header{
   width:100%;
-  background-color:#1D2634;
+  background-color:#FCB29C;
   height:75px;
   margin-top:-15px;
 }
@@ -47,9 +47,8 @@ header img{
 }
 .hero{
   height:500px;
-  border:solid 1px;
-  border-color:#1D2634;
-  background-color:#1D2634;
+  border:solid 1px #FCB29C;
+  background-color:#FCB29C;
 }
 .hero h1,
 .hero h2,
