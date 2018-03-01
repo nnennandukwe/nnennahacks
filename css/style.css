@@ -32,6 +32,9 @@ header img{
   margin-left:150px;
   margin-top:20px;
 }
+.navbar-item:hover{
+  opacity:0.5;
+}
 .hire-me-button{
   float:right;
   padding:2.5%;
@@ -274,6 +277,9 @@ footer{
 .reach-me span{
   color:white;
   font-size:36px;
+}
+.fa:hover{
+  opacity:0.5;
 }
 .social-media-connect ul li,
 .social-media-connect ul li a{
