@@ -78,7 +78,7 @@ header img{
   letter-spacing:2.5px;
 }
 .photographic-proof-section{
-  padding:5%;
+  padding:2%;
 }
 .photographic-proof-section h2{
   font-size:50px;
@@ -124,29 +124,31 @@ header img{
   color:white;
 }
 .technologies{
-  width:100%;
-  margin:auto;
+  width:55%;
+  margin:0 auto;
+  border:solid 1px;
 }
 .technologies ul{
   font-size:20px;
   display:table;
   margin:0 auto;
   font-weight:300;
-  width:80%;
+  width:50%;
 }
 .technologies ul li{
   color:#9A5844;
   list-style:none;
   padding:1%;
-  margin:0 auto;
   width:20%;
   display:inline-block;
   float:left;
-  border:solid 1px #9A5844;
 }
 .tech-icons{
-  height:100px;
-  width:100px;
+  height:150px;
+  width:150px;
+}
+.tech-icons:hover{
+  opacity:0.3;
 }
 .tech-skills-section h3,
 .right-path-section h3{
