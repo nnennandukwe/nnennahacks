@@ -159,7 +159,7 @@ header img{
   font-weight:400;
   font-size:36px;
   background-color:#F5B7B1;
-  padding:2%;
+  padding:3%;
 }
 .right-path-section p,
 .right-path-section button{
@@ -171,6 +171,7 @@ header img{
   margin-right:10%;
   font-weight:300;
   font-size:24px;
+  margin-bottom:4%;
 }
 .right-path-section button,
 .purpose-passion-section button{
@@ -192,7 +193,7 @@ header img{
   color:#CD6155;
 }
 .purpose-passion-section{
-  padding:5%;
+  padding:3%;
   clear:both;
   color:#9A5844;
 }
