@@ -5,8 +5,8 @@
 
 header{
   width:100%;
-  background-color:#1D2634;
-  height:100px;
+  background-color:#FCB29C;
+  height:75px;
   margin-top:-15px;
 }
 header ul{
@@ -45,11 +45,13 @@ header img{
   color:#1D2634;
   font-size:18px;
 }
+.hire-me-button button a{
+  color:#9A5844;
+}
 .hero{
   height:500px;
-  border:solid 1px;
-  border-color:#1D2634;
-  background-color:#1D2634;
+  border:solid 1px #FCB29C;
+  background-color:#FCB29C;
 }
 .hero h1,
 .hero h2,
@@ -78,11 +80,11 @@ header img{
 .photographic-proof-section{
   padding:5%;
 }
-.photographic-proof-section h2,
-.photographic-proof-section h3{
+.photographic-proof-section h2{
   font-size:50px;
   text-align:center;
   font-weight:400;
+  color:#CD6155;
 }
 .left-proof,
 .middle-proof,
@@ -111,27 +113,36 @@ header img{
 .skills-and-path-section{
   float:left;
   padding:2%;
-  background-color:#E2E3E5;
+  background-color:#FDCA8C;
   padding-bottom:7%;
+  color:white;
 }
 .tech-skills-section{
-  width:48%;
+  width:100%;
+  border:solid 1px;
   float:left;
-  border-right:solid 1px grey;
+  background-color:#F5B7B1;
+  color:white;
 }
-.boxing-my-skillset{
-  width:48%;
+.technologies{
+  width:100%;
   margin:auto;
 }
-.boxing-my-skillset ul{
+.technologies ul{
   font-size:20px;
+  display:table;
+  margin:0 auto;
   font-weight:300;
-  list-style:none;
+  width:80%;
 }
-.boxing-my-skillset ul li{
-  display:inline-block;
-  color:#5C7C93;
-  padding:7px;
+.technologies ul li{
+  color:white;
+  list-style:none;
+  padding:1%;
+  margin:0 auto;
+  width:20%;
+  display:inline;
+  float:left;
 }
 .tech-skills-section h3,
 .right-path-section h3{
@@ -153,20 +164,26 @@ header img{
 .right-path-section button,
 .purpose-passion-section button{
   background-color:transparent;
-  border:solid 1px grey;
+  border:solid 1px #9A5844;
+  color:#9A5844;
   height:75px;
   width:200px;
   font-size:20px;
   display:block;
   margin:auto;
 }
+.right-path-section button a{
+  color:#9A5844;
+}
 .right-path-section{
-  width:48%;
+  width:100%;
   float:left;
+  color:#CD6155;
 }
 .purpose-passion-section{
   padding:5%;
   clear:both;
+  color:#9A5844;
 }
 .purpose-passion-section p,
 .facts-about-me p{
@@ -179,7 +196,8 @@ header img{
   font-weight:400;
 }
 .facts-about-me{
-  background-color:#E2E3E5;
+  background-color:#EDBB99;
+  color:white;
   clear:both;
 }
 .facts-about-me p{
@@ -191,12 +209,6 @@ header img{
 }
 .facts-about-me h2{
   padding-top:3%;
-}
-
-.contact-me-form{
-  background-color:white;
-  font-size:30px;
-  height:650px;
 }
 .label-half{
   width:30%;
@@ -239,7 +251,7 @@ textarea{
   color:#1D2634;
 }
 footer{
-  background-color:#1D2634;
+  background-color:#FCB29C;
   clear:both;
 }
 .top-footer{
@@ -299,7 +311,6 @@ footer{
   }
   .tech-skills-section{
     border-right:none;
-    border-bottom:solid 1px grey;
   }
   .hire-me-button{
     float:left;
