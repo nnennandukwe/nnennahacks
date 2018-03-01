@@ -144,6 +144,10 @@ header img{
   float:left;
   border:solid 1px #9A5844;
 }
+.tech-icons{
+  height:100px;
+  width:100px;
+}
 .tech-skills-section h3,
 .right-path-section h3{
   text-align:center;
