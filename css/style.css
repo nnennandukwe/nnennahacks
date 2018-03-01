@@ -84,6 +84,7 @@ header img{
   font-size:50px;
   text-align:center;
   font-weight:400;
+  color:#CD6155;
 }
 .left-proof,
 .middle-proof,
@@ -120,25 +121,28 @@ header img{
   width:100%;
   border:solid 1px;
   float:left;
+  background-color:#F5B7B1;
+  color:white;
 }
-.technologies-section{
+.technologies{
   width:100%;
   margin:auto;
-  border:solid 1px;
 }
-.technologies-section ul{
+.technologies ul{
   font-size:20px;
   display:table;
-  font-weight:300;
   margin:0 auto;
-  border:solid 1px;
+  font-weight:300;
   width:80%;
 }
-.technologies-section ul li{
-  display:inline-block;
-  color:#1D2634;
-  border:solid 1px;
+.technologies ul li{
+  color:white;
+  list-style:none;
   padding:1%;
+  margin:0 auto;
+  width:20%;
+  display:inline;
+  float:left;
 }
 .tech-skills-section h3,
 .right-path-section h3{
@@ -160,7 +164,8 @@ header img{
 .right-path-section button,
 .purpose-passion-section button{
   background-color:transparent;
-  border:solid 1px grey;
+  border:solid 1px #9A5844;
+  color:#9A5844;
   height:75px;
   width:200px;
   font-size:20px;
@@ -172,12 +177,13 @@ header img{
 }
 .right-path-section{
   width:100%;
-  border:solid 1px;
   float:left;
+  color:#CD6155;
 }
 .purpose-passion-section{
   padding:5%;
   clear:both;
+  color:#9A5844;
 }
 .purpose-passion-section p,
 .facts-about-me p{
@@ -190,7 +196,8 @@ header img{
   font-weight:400;
 }
 .facts-about-me{
-  background-color:#E2E3E5;
+  background-color:#EDBB99;
+  color:white;
   clear:both;
 }
 .facts-about-me p{
@@ -202,12 +209,6 @@ header img{
 }
 .facts-about-me h2{
   padding-top:3%;
-}
-
-.contact-me-form{
-  background-color:white;
-  font-size:30px;
-  height:650px;
 }
 .label-half{
   width:30%;
@@ -310,7 +311,6 @@ footer{
   }
   .tech-skills-section{
     border-right:none;
-    border-bottom:solid 1px grey;
   }
   .hire-me-button{
     float:left;
