@@ -121,7 +121,6 @@ header img{
   width:100%;
   border:solid 1px;
   float:left;
-  background-color:#F5B7B1;
   color:white;
 }
 .technologies{
@@ -136,19 +135,22 @@ header img{
   width:80%;
 }
 .technologies ul li{
-  color:white;
+  color:#9A5844;
   list-style:none;
   padding:1%;
   margin:0 auto;
   width:20%;
-  display:inline;
+  display:inline-block;
   float:left;
+  border:solid 1px #9A5844;
 }
 .tech-skills-section h3,
 .right-path-section h3{
   text-align:center;
   font-weight:400;
   font-size:36px;
+  background-color:#F5B7B1;
+  padding:2%;
 }
 .right-path-section p,
 .right-path-section button{
