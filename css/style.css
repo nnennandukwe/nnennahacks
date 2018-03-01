@@ -112,26 +112,33 @@ header img{
 .skills-and-path-section{
   float:left;
   padding:2%;
-  background-color:#FFD6A4;
+  background-color:#FDCA8C;
   padding-bottom:7%;
+  color:white;
 }
 .tech-skills-section{
-  width:48%;
+  width:100%;
+  border:solid 1px;
   float:left;
 }
-.boxing-my-skillset{
-  width:48%;
+.technologies-section{
+  width:100%;
   margin:auto;
+  border:solid 1px;
 }
-.boxing-my-skillset ul{
+.technologies-section ul{
   font-size:20px;
+  display:table;
   font-weight:300;
-  list-style:none;
+  margin:0 auto;
+  border:solid 1px;
+  width:80%;
 }
-.boxing-my-skillset ul li{
+.technologies-section ul li{
   display:inline-block;
-  color:#1D2634;;
-  padding:7px;
+  color:#1D2634;
+  border:solid 1px;
+  padding:1%;
 }
 .tech-skills-section h3,
 .right-path-section h3{
@@ -164,7 +171,8 @@ header img{
   color:#9A5844;
 }
 .right-path-section{
-  width:48%;
+  width:100%;
+  border:solid 1px;
   float:left;
 }
 .purpose-passion-section{
