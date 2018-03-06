@@ -149,6 +149,7 @@ header img{
 .tech-icons{
   height:150px;
   width:150px;
+  margin-left:25px;
 }
 .tech-icons:hover{
   opacity:0.3;
@@ -186,6 +187,9 @@ header img{
 }
 .right-path-section button a{
   color:#9A5844;
+}
+.right-path-section button:hover{
+  opacity:0.5;
 }
 .right-path-section{
   width:100%;
