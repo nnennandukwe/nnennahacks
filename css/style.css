@@ -80,9 +80,6 @@ header img{
 .hero p{
   letter-spacing:2.5px;
 }
-.photographic-proof-section{
-  padding:2%;
-}
 .photographic-proof-section h2{
   font-size:50px;
   text-align:center;
@@ -327,9 +324,6 @@ footer{
   .tech-skills-section,
   .right-path-section{
     width:100%;
-  }
-  .tech-skills-section{
-    border-right:none;
   }
   .hire-me-button{
     float:left;
