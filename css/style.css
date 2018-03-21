@@ -80,9 +80,6 @@ header img{
 .hero p{
   letter-spacing:2.5px;
 }
-.photographic-proof-section{
-  padding:2%;
-}
 .photographic-proof-section h2{
   font-size:50px;
   text-align:center;
@@ -149,6 +146,7 @@ header img{
 .tech-icons{
   height:150px;
   width:150px;
+  margin-left:25px;
 }
 .tech-icons:hover{
   opacity:0.3;
@@ -186,6 +184,9 @@ header img{
 }
 .right-path-section button a{
   color:#9A5844;
+}
+.right-path-section button:hover{
+  opacity:0.5;
 }
 .right-path-section{
   width:100%;
@@ -323,9 +324,6 @@ footer{
   .tech-skills-section,
   .right-path-section{
     width:100%;
-  }
-  .tech-skills-section{
-    border-right:none;
   }
   .hire-me-button{
     float:left;
