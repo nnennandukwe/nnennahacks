@@ -60,7 +60,6 @@ header ul li a{
 .left-proof,
 .middle-proof,
 .right-proof{
-  height:400px;
   width:20%;
   float:left;
 }
