@@ -1,5 +1,5 @@
 *{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   text-decoration:none;
 }
 body{
@@ -9,14 +9,13 @@ body{
 
 header{
   width:100%;
-  background-color:#FCB29C;
-  height:75px;
-  margin-top:-15px;
+  background-color:#2C88BE;
+  float:left;
 }
 header ul{
-  width:65%;
   float:left;
-  margin-top:40px;
+  padding-top:2%;
+  display: inline-block;
 }
 header ul li{
   list-style:none;
@@ -29,36 +28,12 @@ header ul li a{
   letter-spacing:2px;
   font-size:24px;
 }
-header img{
-  height:50px;
-  width:50px;
-  float:left;
-  margin-left:150px;
-  margin-top:20px;
-}
 .navbar-item:hover{
   opacity:0.5;
 }
-.hire-me-button{
-  float:right;
-  padding:2.5%;
-}
-.hire-me-button button{
-  background-color:white;
-  border:none;
-  border-radius:5px;
-  height:50px;
-  width:200px;
-  color:#1D2634;
-  font-size:18px;
-}
-.hire-me-button button a{
-  color:#9A5844;
-}
 .hero{
-  height:300px;
-  border:solid 1px #FCB29C;
-  background-color:#FCB29C;
+  background-color:#2C88BE;
+  float:left;
 }
 .hero h1,
 .hero h2,
@@ -67,7 +42,7 @@ header img{
   color:white;
 }
 .hero h1{
-  font-size:50px;
+  font-size:40px;
   text-align:center;
   font-weight:400;
 }
@@ -79,16 +54,10 @@ header img{
   padding-right:10%;
 }
 .hero h2{
-  font-size:32px;
+  font-size:24px;
 }
 .hero p{
   letter-spacing:2.5px;
-}
-.photographic-proof-section h2{
-  font-size:50px;
-  text-align:center;
-  font-weight:400;
-  color:#CD6155;
 }
 .left-proof,
 .middle-proof,
@@ -122,14 +91,12 @@ header img{
 }
 .tech-skills-section{
   width:100%;
-  border:solid 1px;
   float:left;
   color:white;
 }
 .technologies{
   width:100%;
   margin:auto;
-  border:solid 1px;
 }
 .technologies ul{
   font-size:20px;
@@ -160,7 +127,7 @@ header img{
   font-weight:400;
   font-size:36px;
   padding:3%;
-  color:#CD6155;
+  color:#0077c2;
 }
 .right-path-section p,
 .right-path-section button{
@@ -177,7 +144,7 @@ header img{
 .right-path-section button,
 .purpose-passion-section button{
   background-color:transparent;
-  border:solid 1px #9A5844;
+  border:solid 1px black;
   color:#9A5844;
   height:75px;
   width:200px;
@@ -186,7 +153,7 @@ header img{
   margin:auto;
 }
 .right-path-section button a{
-  color:#9A5844;
+  color:#01579b;
 }
 .right-path-section button:hover{
   opacity:0.5;
@@ -194,25 +161,25 @@ header img{
 .right-path-section{
   width:100%;
   float:left;
-  color:#CD6155;
+  color:black;
 }
 .purpose-passion-section{
   padding:3%;
   clear:both;
-  color:#9A5844;
+  color:#01579b;
 }
-.purpose-passion-section p,
-.facts-about-me p{
-  font-size:24px;
+.purpose-passion-section p{
+  font-size:20px;
+  color:black;
 }
 .purpose-passion-section h2,
 .facts-about-me h2{
-  font-size:56px;
+  font-size:40px;
   text-align:center;
   font-weight:400;
 }
 .facts-about-me{
-  background-color:#EDBB99;
+  background-color:#F66244;
   color:white;
   clear:both;
 }
@@ -221,7 +188,7 @@ header img{
   padding-right:10%;
   padding-bottom:7%;
   font-weight:300;
-  font-size:28px;
+  font-size:20px;
 }
 .facts-about-me h2{
   padding-top:3%;
@@ -267,7 +234,7 @@ textarea{
   color:#1D2634;
 }
 footer{
-  background-color:#FCB29C;
+  background-color:#5AA252;
   clear:both;
 }
 .top-footer{
@@ -277,7 +244,7 @@ footer{
   text-align:center;
   width:100%;
   clear:both;
-  padding-top:2%;
+  padding:2%;
 }
 .reach-me span{
   color:white;
@@ -294,7 +261,7 @@ footer{
 .social-media-connect ul li{
   list-style:none;
   display:inline-block;
-  font-size:86px;
+  font-size:50px;
 }
 .footer-message{
   clear:both;
@@ -309,58 +276,4 @@ footer{
 }
 .footer-message span{
   text-align:center;
-}
-
-@media only screen and (max-width:786px){
-  header{
-    width:100%;
-    height:200px;
-  }
-  header ul{
-    width:100%;
-    text-align:center;
-    margin-left:-50px;
-  }
-  .hero{
-    height:700px;
-  }
-  .tech-skills-section,
-  .right-path-section{
-    width:100%;
-  }
-  .hire-me-button{
-    float:left;
-    width:100%;
-    text-align:center;
-    margin-left:-20px;
-  }
-  .hire-me-button button{
-    font-size:30px;
-    width:90%;
-    height:80px;
-  }
-
-}
-
-@media only screen and (max-width:600px){
-  .hire-me-button{
-    float:left;
-    width:100%;
-    text-align:center;
-    margin-left:-20px;
-  }
-  .hire-me-button button{
-    font-size:30px;
-    width:90%;
-    height:80px;
-  }
-  .hero{
-    height:800px;
-  }
-}
-
-@media only screen and (max-width:400px){
-  .hero{
-    height:1000px;
-  }
 }
