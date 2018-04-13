@@ -45,6 +45,7 @@ header ul li a{
   font-size:40px;
   text-align:center;
   font-weight:400;
+  letter-spacing:-1px;
 }
 .hero h2,
 .hero p{
