@@ -2,6 +2,10 @@
   font-family: 'Oswald', sans-serif;
   text-decoration:none;
 }
+body{
+  width:60%;
+  margin:auto;
+}
 
 header{
   width:100%;
@@ -52,7 +56,7 @@ header img{
   color:#9A5844;
 }
 .hero{
-  height:500px;
+  height:300px;
   border:solid 1px #FCB29C;
   background-color:#FCB29C;
 }
@@ -63,7 +67,7 @@ header img{
   color:white;
 }
 .hero h1{
-  font-size:72px;
+  font-size:50px;
   text-align:center;
   font-weight:400;
 }
@@ -89,7 +93,6 @@ header img{
 .left-proof,
 .middle-proof,
 .right-proof{
-  border:solid 1px;
   height:400px;
   width:20%;
   float:left;
@@ -124,8 +127,8 @@ header img{
   color:white;
 }
 .technologies{
-  width:55%;
-  margin:0 auto;
+  width:100%;
+  margin:auto;
   border:solid 1px;
 }
 .technologies ul{
@@ -156,8 +159,8 @@ header img{
   text-align:center;
   font-weight:400;
   font-size:36px;
-  background-color:#F5B7B1;
   padding:3%;
+  color:#CD6155;
 }
 .right-path-section p,
 .right-path-section button{
@@ -291,7 +294,7 @@ footer{
 .social-media-connect ul li{
   list-style:none;
   display:inline-block;
-  font-size:48px;
+  font-size:86px;
 }
 .footer-message{
   clear:both;
