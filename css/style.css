@@ -80,21 +80,6 @@
   width:100%;
   margin:auto;
 }
-.technologies ul{
-  font-size:20px;
-  display:table;
-  margin:0 auto;
-  font-weight:300;
-  width:50%;
-}
-.technologies ul li{
-  color:#9A5844;
-  list-style:none;
-  padding:1%;
-  width:20%;
-  display:inline-block;
-  float:left;
-}
 .tech-list{
   display:none;
 }
@@ -107,7 +92,8 @@
   opacity:0.3;
 }
 .tech-skills-section h3,
-.right-path-section h3{
+.right-path-section h3,
+.volunteering h3{
   text-align:center;
   font-weight:400;
   font-size:30px;
@@ -119,15 +105,15 @@
   text-align:center;
   list-style:none;
 }
-.right-path-section p{
+.right-path-section p,
+.volunteering p{
   margin-left:10%;
   margin-right:10%;
   font-weight:300;
   font-size:18px;
   margin-bottom:4%;
 }
-.right-path-section button,
-.purpose-passion-section button{
+.right-path-section button{
   background-color:transparent;
   border:solid 1px black;
   color:#9A5844;
@@ -142,28 +128,42 @@
 .right-path-section button:hover{
   opacity:0.5;
 }
-.right-path-section{
+.right-path-section,
+.volunteering{
   width:100%;
   float:left;
   color:black;
 }
 .purpose-passion-section{
-  padding:3%;
+  padding:2%;
   clear:both;
   color:#01579b;
+}
+.purpose-passion-section h2{
+  color:#0077c2;
 }
 .purpose-passion-section p{
   font-size:20px;
   color:black;
 }
 .purpose-passion-section h2,
-.facts-about-me h2{
+.facts-about-me h2,
+.tech-articles-section h2,
+.youtube-section h2{
   font-size:30px;
   text-align:center;
   font-weight:400;
+  padding-top:3%;
+}
+.tech-articles-section,
+.youtube-section{
+  padding-top:5%;
+  color:#0077c2;
+  clear:both;
+  width:100%;
 }
 .facts-about-me{
-  background-color:#F66244;
+  background-color:#E94C2C;
   color:white;
   clear:both;
 }
@@ -201,20 +201,8 @@
   color:lightgrey;
   font-family:monospace;
 }
-.submit-icon{
-  text-align:center;
-  font-size:50px;
-  height:550px;
-}
-.submit-icon a{
-  color:grey;
-  cursor:pointer;
-}
-.submit-icon a:hover{
-  color:#1D2634;
-}
 footer{
-  background-color:#5AA252;
+  background-color:#53C240;
   clear:both;
 }
 .top-footer{
@@ -265,7 +253,8 @@ footer{
   .title{
     font-size:12px;
   }
-  .technologies{
+  .tech-icons,
+  .bgc-icon{
     display:none;
   }
   .tech-list{
@@ -275,7 +264,8 @@ footer{
   }
   .purpose-passion-section p,
   .right-path-section p,
-  .facts-about-me p{
+  .facts-about-me p,
+  .volunteering p{
     font-size:14px;
   }
   #body{
@@ -286,6 +276,9 @@ footer{
   }
   .social-media-connect ul li a{
     font-size:25px;
+  }
+  .right-path-section button a{
+    font-size:14px;
   }
 }
 @media only screen and (max-width:800px){
