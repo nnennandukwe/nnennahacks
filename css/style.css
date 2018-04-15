@@ -40,9 +40,10 @@ header ul li a{
 }
 .hero h1{
   font-size:40px;
-  text-align:center;
   font-weight:400;
   letter-spacing:-1px;
+  padding:1%;
+  text-align:center;
 }
 .hero h2,
 .hero p{
@@ -60,7 +61,6 @@ header ul li a{
 .left-proof,
 .middle-proof,
 .right-proof{
-  height:400px;
   width:20%;
   float:left;
 }
@@ -145,7 +145,7 @@ header ul li a{
   border:solid 1px black;
   color:#9A5844;
   height:75px;
-  width:200px;
+  width:20%;
   font-size:20px;
   display:block;
   margin:auto;
