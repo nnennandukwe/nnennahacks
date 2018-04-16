@@ -177,30 +177,6 @@
 .facts-about-me h2{
   padding-top:3%;
 }
-.label-half{
-  width:30%;
-  float:left;
-  margin-left:20%;
-}
-.input-half{
-  width:49%;
-  float:left;
-}
-.input-half input{
-  height:30px;
-  width:55%;
-}
-.input-half textarea:last-of-type{
-  margin-top:10px;
-  height:100px;
-  width:500px;
-}
-.input-half input::placeholder,
-.input-half textarea::placeholder{
-  font-size:25px;
-  color:lightgrey;
-  font-family:monospace;
-}
 footer{
   background-color:#53C240;
   clear:both;
