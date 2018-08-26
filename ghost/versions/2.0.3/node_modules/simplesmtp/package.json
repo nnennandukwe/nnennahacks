@@ -1,0 +1,36 @@
+{
+    "name": "simplesmtp",
+    "description": "Simple SMTP server module to create custom SMTP servers",
+    "version": "0.3.35",
+    "author" : "Andris Reinman",
+    "maintainers":[
+        {
+            "name":"andris",
+            "email":"andris@node.ee"
+        }
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/andris9/simplesmtp.git"
+    },
+    "scripts":{
+        "test": "nodeunit test/"
+    },
+    "main" : "./lib/smtp",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/andris9/simplesmtp/blob/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "rai": "~0.1.11",
+        "xoauth2": "~0.1.8"
+    },
+    "devDependencies": {
+        "nodeunit": "*",
+        "mailcomposer": "*"
+    },
+    "engines" : { "node" : ">=0.8.0" },
+    "keywords": ["servers", "text-based", "smtp", "email", "mail", "e-mail"]
+}

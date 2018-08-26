@@ -1,0 +1,63 @@
+{
+  "name": "bookshelf-relations",
+  "version": "0.2.1",
+  "alias": "bookshelf-relations",
+  "description": "Auto update relations",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "npm run lint && _mocha --timeout 10000 --report lcovonly -- test/integration/*_spec.js test/unit/*_spec.js",
+    "perf": "_mocha --report lcovonly -- test/perf/*_spec.js",
+    "coverage": "nyc --reporter=lcov _mocha -- test/integration/*_spec.js test/unit/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TryGhost/bookshelf-relations.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "relations",
+    "relation",
+    "nested",
+    "relationship",
+    "relationships",
+    "associations",
+    "association"
+  ],
+  "author": {
+    "name": "Ghost Foundation",
+    "email": "hello@ghost.org",
+    "web": "https://ghost.org"
+  },
+  "engine": {
+    "node": ">=6"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TryGhost/bookshelf-relations/issues"
+  },
+  "devDependencies": {
+    "bookshelf": "0.13.3",
+    "deep-diff": "^0.3.4",
+    "eslint": "4.19.1",
+    "grunt": "1.0.2",
+    "grunt-release": "^0.14.0",
+    "knex": "0.14.6",
+    "knex-migrator": "3.1.6",
+    "mocha": "^3.0.2",
+    "mysql": "^2.11.1",
+    "nconf": "0.10.0",
+    "nyc": "11.7.1",
+    "should": "13.2.1",
+    "sinon": "^4.1.2",
+    "sqlite3": "^3.1.8"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "ghost-ignition": "2.9.2",
+    "lodash": "4.17.10"
+  },
+  "peerDependencies": {
+    "bookshelf": ">=0.13.0"
+  }
+}

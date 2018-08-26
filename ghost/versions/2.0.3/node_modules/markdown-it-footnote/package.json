@@ -1,0 +1,28 @@
+{
+  "name": "markdown-it-footnote",
+  "version": "3.0.1",
+  "description": "Footnotes for markdown-it markdown parser.",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "footnotes"
+  ],
+  "repository": "markdown-it/markdown-it-footnote",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "coveralls": "^2.11.2",
+    "eslint": "~2.13.1",
+    "istanbul": "*",
+    "lodash": "*",
+    "markdown-it": "markdown-it/markdown-it",
+    "markdown-it-testgen": "~0.1.0",
+    "mocha": "*",
+    "request": "*",
+    "uglify-js": "*"
+  }
+}

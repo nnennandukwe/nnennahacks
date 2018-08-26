@@ -1,0 +1,30 @@
+sudo: false
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+
+notifications:
+  email: false
+
+node_js:
+  - '8'
+  - '6'
+  - '4'
+
+before_script:
+  - npm prune
+
+script:
+  - npm run test-travis
+
+after_script:
+  - 'npm install coveralls && cat coverage/lcov.info | coveralls'
+
+after_success:
+  - npm run semantic-release
+
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"

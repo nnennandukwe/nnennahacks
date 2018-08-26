@@ -1,0 +1,39 @@
+{
+  "name": "hijackresponse",
+  "version": "2.0.1",
+  "description": "Hijack HttpResponses",
+  "main": "lib/hijackResponse.js",
+  "devDependencies": {
+    "bufferedstream": "3.1.1",
+    "compression": "1.6.1",
+    "coveralls": "2.11.4",
+    "errorhandler": "1.4.2",
+    "express": "4.13.3",
+    "istanbul": "0.3.20",
+    "lodash": "3.10.1",
+    "mocha": "2.3.2",
+    "passerror": "1.1.0",
+    "sinon": "1.17.3",
+    "standard": "5.3.0",
+    "unexpected": "10.13.0",
+    "unexpected-express": "8.2.0",
+    "unexpected-sinon": "10.2.0"
+  },
+  "scripts": {
+    "coverage": "istanbul --include-all-sources cover _mocha",
+    "lint": "standard",
+    "test": "mocha",
+    "travis": "npm run lint && npm run coverage",
+    "submit-coveralls": "<coverage/lcov.info coveralls"
+  },
+  "repository": "gustavnikolaj/hijackresponse",
+  "homepage": "https://github.com/gustavnikolaj/hijackresponse",
+  "bugs": {
+    "url": "https://github.com/gustavnikolaj/hijackresponse/issues"
+  },
+  "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
+  "contributors": [
+    "Andreas Lind <andreas@one.com>"
+  ],
+  "license": "ISC"
+}

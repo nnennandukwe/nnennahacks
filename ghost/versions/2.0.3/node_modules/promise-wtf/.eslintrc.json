@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-ggc",
+  "rules": {
+    "no-console": 0
+  }
+}

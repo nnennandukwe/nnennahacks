@@ -1,0 +1,29 @@
+{
+    "name": "aws-sdk-apis",
+    "description": "AWS SDK for JavaScript APIs",
+    "version": "3.1.10",
+    "author": {
+        "name":"Amazon Web Services",
+        "email":"",
+        "url":"http://aws.amazon.com/"
+    },
+    "homepage": "https://github.com/aws/aws-sdk-js",
+    "contributors": [
+      "Loren Segal <lsegal@amazon.com>"
+    ],
+    "repository": {
+        "type" : "git",
+        "url": "git://github.com/aws/aws-sdk-js-apis"
+    },
+   "bugs" : {
+        "url" : "http://github.com/aws/aws-sdk-js-apis/issues",
+        "mail" : ""
+    },
+    "licenses": [{
+        "type": "Apache 2.0",
+        "url": "http://github.com/aws/aws-sdk-js-apis/raw/master/LICENSE.txt"
+    }],
+    "keywords": [
+        "api", "amazon","aws","sdk"
+    ]
+}

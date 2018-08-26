@@ -1,0 +1,18 @@
+# compiled output
+/dist
+/tmp
+
+# dependencies
+node_modules/
+
+# npm pack
+package/
+*.tgz
+
+# coverage
+.nyc_output/
+coverage/
+
+# logs
+npm-debug.log*
+*.log

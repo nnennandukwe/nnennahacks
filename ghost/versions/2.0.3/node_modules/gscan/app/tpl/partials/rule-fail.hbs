@@ -1,0 +1,24 @@
+<article class="rule fail">
+    <p>{{{rule}}}</p>
+    {{> toggle}}
+
+    <div class="details hide">
+        {{#if message}}
+            <p>{{message}}</p>
+        {{/if}}
+
+        {{#if failures}}
+            <ul>
+                {{#each failures}}
+                    <li><strong>{{ref}}:</strong> {{message}}</li>
+                {{/each}}
+            </ul>
+        {{/if}}
+
+        {{#if details}}
+            {{{details}}}
+        {{else}}
+            <p>There is no info for this rule yet.</p>
+        {{/if}}
+    </div>
+</article>

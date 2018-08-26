@@ -1,0 +1,40 @@
+{
+  "name": "brute-knex",
+  "version": "3.0.0",
+  "description": "A Knex.js store for express-brute",
+  "keywords": [
+    "express",
+    "brute",
+    "knex"
+  ],
+  "license": "ISC",
+  "private": false,
+  "scripts": {
+    "lint": "eslint lib example.js",
+    "test": "yarn lint && mocha --report lcovonly -- test/*_spec.js"
+  },
+  "engine": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:llambda/brute-knex.git"
+  },
+  "devDependencies": {
+    "bluebird": "3.5.1",
+    "express": "4.16.3",
+    "ghost-ignition": "^2.9.1",
+    "mocha": "^5.1.1",
+    "mysql": "2.15.0",
+    "pg": "^6.1.0",
+    "sqlite3": "^3.0.7"
+  },
+  "dependencies": {
+    "eslint": "4.19.1",
+    "express-brute": "^1.0.0",
+    "knex": "0.14.6",
+    "should": "^13.2.1"
+  },
+  "main": "lib",
+  "files": ["lib"]
+}

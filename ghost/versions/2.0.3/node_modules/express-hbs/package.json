@@ -1,0 +1,44 @@
+{
+  "name": "express-hbs",
+  "version": "1.0.4",
+  "description": "Express 3 handlebars template engine complete with multiple layouts, partials and blocks.",
+  "keywords": [
+    "express3",
+    "express",
+    "handlebars",
+    "layout",
+    "partials"
+  ],
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "grunt",
+    "coverage": "NODE_ENV=testing ./node_modules/.bin/istanbul cover --dir test/coverage -x 'example/**' ./node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barc/express-hbs"
+  },
+  "bugs": "https://github.com/barc/express-hbs/issues",
+  "author": "Mario Gutierrez <mario@barc.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cookie-parser": "1.4.3",
+    "express": "4.14.0",
+    "grunt": "1.0.1",
+    "grunt-mocha-cli": "3.0.0",
+    "grunt-release": "0.14.0",
+    "i18n": "0.8.3",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0",
+    "rewire": "2.5.2",
+    "supertest": "2.0.1"
+  },
+  "dependencies": {
+    "handlebars": "4.0.6",
+    "js-beautify": "1.6.8",
+    "readdirp": "2.1.0"
+  }
+}

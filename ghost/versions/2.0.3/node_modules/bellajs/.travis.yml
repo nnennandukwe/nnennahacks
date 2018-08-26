@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "10.0"
+  - "9.11"
+  - "7.6"
+  - "6.0"
+before_script:
+  - export TZ=Etc/GMT-7
