@@ -257,6 +257,14 @@ footer{
   .social-media-connect ul li a{
     font-size:25px;
   }
+
+  #mc_embed_signup {
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+    width:100%;
+  }
+
   .right-path-section button a{
     font-size:14px;
   }
