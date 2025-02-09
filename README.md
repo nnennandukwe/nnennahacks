@@ -2,6 +2,8 @@
 
 nnennahacks.io is my personal site.
 
+github's hosted page: https://nnennandukwe.github.io/nnennahacks/
+
 to make changes, run `npm start`.
 
 ## find me on these platforms
