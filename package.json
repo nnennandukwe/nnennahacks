@@ -4,7 +4,13 @@
   "description": "nnennahacks.io is my personal site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "mkdir -p dist && cp index.html dist/ && cp index.css dist/ && cp -r images dist/images && echo 'Build complete!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnennandukwe/nnennahacks.git"
   },
   "author": "Nnenna Ndukwe",
   "license": "ISC",
