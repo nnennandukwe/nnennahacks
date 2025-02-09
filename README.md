@@ -2,7 +2,7 @@
 
 nnennahacks.io is my personal site.
 
-## follow me on these platforms
+## find me on these platforms
+
 1. https://www.linkedin.com/in/nnenna-ndukwe/
-2. https://www.twitter.com/nnennahacks
-3. https://www.medium.com/@nnennahacks
+2. https://bsky.app/profile/nnennahacks.bsky.social
