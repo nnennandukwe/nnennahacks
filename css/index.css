@@ -3,15 +3,12 @@
   text-decoration:none;
 }
 #body{
-  width:55%;
+  width:75%;
   margin:auto;
 }
-.navbar-item:hover{
-  opacity:0.5;
-}
 .hero{
-  background-color:#2C88BE;
-  float:left;
+  background-color:#5e3f68;
+  margin-bottom:5%;
 }
 .hero-body ul{
   text-align:center;
@@ -20,9 +17,11 @@
   display: inline-block;
   font-size:20px;
 }
+.hero-body ul li a:hover{
+  color:#3f2a43;
+}
 .hero h1,
 .hero h2,
-.hero p,
 .hero div a{
   color:white;
 }
@@ -32,126 +31,30 @@
   padding:1%;
   text-align:center;
 }
-.hero h2,
-.hero p{
+.hero h2{
   font-weight:400;
   text-align:center;
   padding-left:10%;
   padding-right:10%;
 }
-.hero p{
-  letter-spacing:2.5px;
-}
-.left-proof,
-.middle-proof,
-.right-proof{
-  width:20%;
+.profile-pic{
+  max-width:300px;
   float:left;
+  margin-right:4%;
 }
-.left-proof{
-  background-color:lightblue;
-}
-.middle-proof{
-  background-color:lightgrey;
-}
-.right-proof{
-  background-color:grey;
-}
-.purpose-passion-section p{
-  margin-left:15%;
-  margin-right:15%;
-  margin-bottom:5%;
-  font-weight:300;
-  font-size:16px;
-}
-.skills-and-path-section{
-  float:left;
-  padding:2%;
-  background-color:#FDCA8C;
-  padding-bottom:7%;
-  color:white;
-}
-.tech-skills-section{
-  width:100%;
-  float:left;
-  color:white;
-}
-.technologies{
-  width:100%;
-  margin:auto;
-}
-.tech-list{
-  display:none;
-}
-.tech-icons{
-  height:100px;
-  width:100px;
-  margin-left:25px;
-}
-.tech-icons:hover{
-  opacity:0.3;
-}
-.tech-skills-section h3,
-.right-path-section h3,
-.volunteering h3,
-.client-work h3{
-  text-align:center;
+.bio-section h3{
   font-weight:400;
   font-size:30px;
-  padding:3%;
-  color:#0077c2;
+  color:#3f2a43;
+  margin-bottom:1%;
 }
-.client-work img:hover{
-  opacity:0.7;
-}
-.right-path-section p,
-.right-path-section button{
-  text-align:center;
-  list-style:none;
-}
-.right-path-section p,
-.volunteering p{
-  margin-left:10%;
-  margin-right:10%;
+.bio-section p{
   font-weight:300;
-  font-size:18px;
-  margin-bottom:4%;
-}
-.right-path-section button{
-  background-color:transparent;
-  border:solid 1px black;
-  color:#9A5844;
-  height:75px;
-  font-size:20px;
-  display:block;
-  margin:auto;
-}
-.right-path-section button a{
-  color:#01579b;
-}
-.right-path-section button:hover{
-  opacity:0.5;
-}
-.right-path-section,
-.volunteering{
-  width:100%;
-  float:left;
+  font-size:0.9rem;
   color:black;
+  margin-bottom:1%;
 }
-.purpose-passion-section{
-  padding:2%;
-  clear:both;
-  color:#01579b;
-}
-.purpose-passion-section h2{
-  color:#0077c2;
-}
-.purpose-passion-section p{
-  font-size:20px;
-  color:black;
-}
-.purpose-passion-section h2,
-.facts-about-me h2,
+
 .tech-articles-section h2,
 .youtube-section h2{
   font-size:30px;
@@ -162,27 +65,15 @@
 .tech-articles-section,
 .youtube-section{
   padding-top:5%;
-  color:#0077c2;
   clear:both;
   width:100%;
 }
-.facts-about-me{
-  background-color:#E94C2C;
-  color:white;
-  clear:both;
-}
-.facts-about-me p{
-  padding-left:10%;
-  padding-right:10%;
-  padding-bottom:7%;
-  font-weight:300;
-  font-size:20px;
-}
-.facts-about-me h2{
-  padding-top:3%;
+.tech-articles-section a,
+.youtube-section a{
+  color:#3f2a43;
 }
 footer{
-  background-color:#53C240;
+  background-color:#855c7b;
   clear:both;
 }
 .top-footer{
@@ -233,19 +124,7 @@ footer{
   .title{
     font-size:12px;
   }
-  .tech-icons,
-  .bgc-icon{
-    display:none;
-  }
-  .tech-list{
-    display: inline;
-    color:black;
-    text-align:center;
-  }
-  .purpose-passion-section p,
-  .right-path-section p,
-  .facts-about-me p,
-  .volunteering p{
+  .bio-section p{
     font-size:14px;
   }
   #body{
@@ -263,10 +142,6 @@ footer{
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
     width:100%;
-  }
-
-  .right-path-section button a{
-    font-size:14px;
   }
 }
 @media only screen and (max-width:800px){

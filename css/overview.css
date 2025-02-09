@@ -2,11 +2,6 @@
     font-family: 'Roboto Mono', monospace;
     text-decoration:none;
   }
-
-#overview{
-    width:85%;
-}
-
 .left-menu{
     width:20%;
     height:100%;
@@ -23,13 +18,6 @@
 .menu-list li a{
     color:white;
     font-size:17px;
-}
-.project-overview{
-    float:right;
-    width:70%;
-    padding:2%;
-    margin-top:10%;
-    height:500px;
 }
 .columns{
     height:53%;
