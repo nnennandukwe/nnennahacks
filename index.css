@@ -54,23 +54,12 @@
   color:black;
   margin-bottom:1%;
 }
-
-.tech-articles-section h2,
-.youtube-section h2{
-  font-size:30px;
-  text-align:center;
+.more-details h3{
   font-weight:400;
-  padding-top:3%;
-}
-.tech-articles-section,
-.youtube-section{
-  padding-top:5%;
-  clear:both;
-  width:100%;
-}
-.tech-articles-section a,
-.youtube-section a{
+  font-size:30px;
   color:#3f2a43;
+  margin-bottom:1%;
+  text-align:center;
 }
 footer{
   background-color:#855c7b;
